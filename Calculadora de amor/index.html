@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!--Titulo-->
+        <h2>Calculadora Del Amor</h2>
+        <div class="Calculadora-amor">
+               <!--nombre-->
+            <label for="name1">Tu nombre</label>
+            <!--imput nombre-->
+            <input type="text" id="name1" placeholder="Ingresa tu nombre">
+             <!--nombre 2-->
+            <label for="name2">Nombre de la pareja</label>
+             <!--imput nombre 2-->
+            <input type="text" id="name2" placeholder="Ingresa el nombre de tu pareja">
+             <!--Cuando se clickee el boton se hace el llamado a la funcion en el script-->
+            <button onclick="calcularAmor()">Calcular</button>
+             <!--Se muestra el resultado-->
+            <div id="result">Resultado</div>
+        </div>
+    </div>
+     <!--llamado de script-->
+    <script src="script.js"></script>
+</body>
+</html>
